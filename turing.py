@@ -12,7 +12,7 @@ class TuringMachine:
         self.reached_states = []
 
     def update(self, grid: Grid, value_code: int = 1):
-        ''' value_code is to distinguish between different beavers (greater than 0) '''
+        ''' value_code is to distinguish between different turing machines (greater than 0) '''
         # print("state is : ", self.state)
         value_read = grid.read_value(self.x, self.y)
         if value_read != 0:

@@ -38,9 +38,9 @@ def main():
         # Display
         screen.fill((0, 0, 0))
         grid.display(screen)
-        grid.display_beaver(screen, turingA.x, turingA.y, (255, 0, 0))
-        grid.display_beaver(screen, turingB.x, turingB.y, (0, 0, 255))
-        grid.display_beaver(screen, turingC.x, turingC.y, (255, 255, 0))
+        grid.display_turing_machine(screen, turingA.x, turingA.y, (255, 0, 0))
+        grid.display_turing_machine(screen, turingB.x, turingB.y, (0, 0, 255))
+        grid.display_turing_machine(screen, turingC.x, turingC.y, (255, 255, 0))
         pygame.display.update()
 
         # Sleep

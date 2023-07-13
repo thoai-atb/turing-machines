@@ -43,7 +43,7 @@ class Grid:
                 )
         screen.blit(gridSurface, (0, 0))
 
-    def display_beaver(self, screen: pygame.Surface, x: int, y: int, color: tuple):
+    def display_turing_machine(self, screen: pygame.Surface, x: int, y: int, color: tuple):
         width = screen.get_width()
         height = screen.get_height()
         unitX = width / self.column_count
